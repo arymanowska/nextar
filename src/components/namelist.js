@@ -4,11 +4,15 @@ export default function Namelist({imie, ok}){
     if(ok){
       classnames="border w-1/2 bg-green-500"
     }else{
-      classnames="border w-1/2"
+      classnames="border w-1/2 bg-red-500"
     }
       return(
           <div className={classnames}>
-        <h1 className="text-pink-400">{imie}</h1>
+        <h1 className="text-black">{imie}</h1>
         </div>
       )
+
   }
+
+
+
