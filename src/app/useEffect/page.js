@@ -1,5 +1,6 @@
 "use client"
 import Country from "@/components/country"
+import Link from "next/link"
 import { useState, useEffect} from "react"
 export default function strona6(){
 
@@ -32,7 +33,9 @@ export default function strona6(){
             <h1>{loading && "Pobieranie danych"}</h1>
             <h1>{error && "Nie udało się pobrać danych"}</h1>
             {data && data.map((kraj, idx)=>
-                <Country key={idx} kraj={kraj}/> 
+            <Link key={idx} href={`useEffect/${kraj.cca2}`}>
+                <Country kraj={kraj}/> 
+                </Link>
         )
     }
             

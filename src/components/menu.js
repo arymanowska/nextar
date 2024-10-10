@@ -10,7 +10,7 @@ export default function Menu(){
           <Link href="/strona3" className="text-green-400">Strona 3</Link>
           <Link href="/strona4" className="text-yellow-400">Strona 4</Link>
           <Link href="/strona5" className="text-orange-400">Strona 5</Link>
-          <Link href="/useEffect" className="text-red-400">Strona 6</Link>
+          <Link href="/useEffect" className="text-red-400">Rest Countries</Link>
         </div>
     )
 }
