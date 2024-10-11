@@ -11,6 +11,9 @@ export default function Menu(){
           <Link href="/strona4" className="text-yellow-400">Strona 4</Link>
           <Link href="/strona5" className="text-orange-400">Strona 5</Link>
           <Link href="/useEffect" className="text-red-400">Rest Countries</Link>
+          <Link href="/strona6">Strona 6</Link>
+          <Link href="/strona7">Strona 7</Link>
+          <Link href="/strona7">Strona 8</Link>
         </div>
     )
 }
